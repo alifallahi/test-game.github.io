@@ -16,33 +16,33 @@ function game(){
 
 
 	if(player1===player2item){
-		alert("the result is same, try again!" + " computer:" + player2item);
+		alert("the result is same, try again!" + " robot:" + player2item);
 	}
 
 	else if(player1==="rock"){
 		if(player2item==="scissors"){
-			alert("you are winner!" + " computer:" + player2item);
+			alert("you are winner!" + " robot:" + player2item);
 		}
 		else{
-			alert("computer is winner!" + " computer:" + player2item);
+			alert("computer is winner!" + " robot:" + player2item);
 		}
 	}
 
 		else if(player1==="paper"){
 		if(player2item==="rock"){
-			alert("you are winner!" + " computer:" + player2item);
+			alert("you are winner!" + " robot:" + player2item);
 		}
 		else{
-			alert("computer is winner!" + " computer:" + player2item);
+			alert("computer is winner!" + " robot:" + player2item);
 		}
 	}
 
 		else if(player1==="scissors"){
 		if(player2item==="paper"){
-			alert("you are winner!" + " computer:" + player2item);
+			alert("you are winner!" + " robot:" + player2item);
 		}
 		else{
-			alert("computer is winner!" + " computer:" + player2item);
+			alert("computer is winner!" + " robot:" + player2item);
 		}
 	}
 
